@@ -1,0 +1,28 @@
+[
+    {
+        "name":"房小许",
+        "money":500,
+        "title":"总交易额￥1098",
+        "const":1,
+    },{
+        "name":"早安先生",
+        "money":0,
+        "title":"暂无交易额",
+        "const":2
+    },{
+        "name":"方小鱼",
+        "money":5000,
+        "title":"总交易额￥798",
+        "const":1
+    },{
+        "name":"房小许",
+        "money":500,
+        "title":"暂无交易额",
+        "const":2
+    },{
+        "name":"早安先生",
+        "money":0,
+        "title":"暂无交易额",
+        "const":2
+    }
+]
