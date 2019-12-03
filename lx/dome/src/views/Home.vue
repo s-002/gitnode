@@ -12,16 +12,16 @@
      <p v-for="(item,index) in navlist" :key="index" :class="isNoN===index?'active':''" @click="btn(index)">{{item.title}}</p>
    </div>
    <div>
-     <div v-for="(item,index) in datalist" :key="index">
-       <dl>
-         <dd></dd>
+       <dl class="dl" v-for="(item,index) in datalist" :key="index">
+         <dd>图</dd>
          <dt>
             <p>{{item.name}}</p>
             <span class="span">{{item.title}}</span>
          </dt>
+         <dt>
+
+         </dt>
        </dl>
-     </div>
-     
    </div>
   </div>
 </template>
@@ -51,8 +51,8 @@ export default {
                   num:'',
                   type:'ok'
               }],
-     alldata:[],
-     datalist:[{}],
+     alldata:[],//初始所有的数据
+     datalist:[],//进行渲染的数据
      isNoN:0,
      ipt:''
    }
@@ -72,15 +72,15 @@ export default {
    },
    include(){//模糊搜索
     if(this.ipt){
-        axios.get(`/api/getincludes`,{params:{ipt:this.ipt}}).then(res=>{
+        axios.post(`/api/getincludes`,{ipt:this.ipt}).then(res=>{
             // console.log(res.data)
-            this.datalist=res.data
+            this.datalist=res.data.listdata
         })
     }else{
       alert('请输入客户名称,手机号,备注名')
     }
    },
-   setResdata(type){
+   setResdata(type){//根据传过来的type 来进行筛选
      if(type==='all'){
        this.datalist=this.alldata
      }else{
@@ -102,6 +102,17 @@ export default {
   .span{
     font-size: 13px;
     color:#ccc;
+  }
+  .dl{
+    display: flex;
+    dd{
+      flex: 3;
+      text-align: center;
+      line-height: 40px;
+    }
+    dt{
+      flex:7;
+    }
   }
   .ipt{
     width: 300px;
