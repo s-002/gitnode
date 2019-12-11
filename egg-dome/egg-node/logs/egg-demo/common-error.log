@@ -1,0 +1,654 @@
+2019-12-04 14:07:24,229 ERROR 756 [-/127.0.0.1/-/20ms GET /] nodejs.TypeError: ctx.body is not a function
+    at IndexController.init (D:\内网通\学习\高级node\练习\egg-demo\app\controller\index.js:4:13)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 756
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 14:09:51,577 ERROR 18356 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18356
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 14:53:01,476 ERROR 14596 [-/127.0.0.1/-/9ms GET /registry?parsword=123456&username=zs&check=1] nodejs.TypeError: Cannot read property 'validate' of undefined
+    at module.exports.index (D:\内网通\学习\高级node\练习\egg-demo\app\controller\user.js:6:35)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 14596
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 15:03:33,557 ERROR 14596 [-/127.0.0.1/-/4ms GET /registry] nodejs.TypeError: Cannot read property 'validate' of undefined
+    at module.exports.index (D:\内网通\学习\高级node\练习\egg-demo\app\controller\user.js:6:35)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 14596
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 15:33:29,294 ERROR 11364 nodejs.ServerNoResponseError: server 127.0.0.1:59386 no response in 40000ms, maybe the socket is end on the other side. (address: 127.0.0.1:59386)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 11364
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 16:59:03,613 ERROR 5876 nodejs.ClusterClientNoResponseError: client no response in 5194303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 5876
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 19:05:55,155 ERROR 11996 [-/127.0.0.1/-/55ms POST /registry] nodejs.TypeError: Cannot read property 'validate' of undefined
+    at module.exports.index (D:\内网通\学习\高级node\练习\egg-demo\app\controller\user.js:11:35)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 11996
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 19:08:38,877 ERROR 2520 nodejs.ClusterClientNoResponseError: client no response in 134647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2520
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 19:30:42,464 ERROR 15960 [-/127.0.0.1/-/43ms POST /registry] nodejs.TypeError: Cannot read property 'validate' of undefined
+    at module.exports.index (D:\内网通\学习\高级node\练习\egg-demo\app\controller\user.js:12:35)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 15960
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 20:11:29,206 ERROR 1144 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'identrty' in 'field list'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:54:5
+    sql: INSERT INTO user 
+        (username,password,id,identrty) values("zs","134",'aaa','1')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'identrty' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO user \n        (username,password,id,identrty) values(\"zs\",\"134\",'aaa','1')"
+name: "unhandledRejectionError"
+pid: 1144
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 20:12:52,162 ERROR 21120 nodejs.unhandledRejectionError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:54:5
+    sql: INSERT INTO user 
+        (username,password,id,identity) values("zs","134","aaa",'1')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO user \n        (username,password,id,identity) values(\"zs\",\"134\",\"aaa\",'1')"
+name: "unhandledRejectionError"
+pid: 21120
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 20:36:56,779 ERROR 14716 nodejs.unhandledRejectionError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `identity`, `id`) VALUES('zs', '1233243', '1', 'tse')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `identity`, `id`) VALUES('zs', '1233243', '1', 'tse')"
+name: "unhandledRejectionError"
+pid: 14716
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 20:37:50,827 ERROR 14716 nodejs.unhandledRejectionError: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `identity`, `id`) VALUES('zs', '1233243', '8', 'clt')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '0' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `identity`, `id`) VALUES('zs', '1233243', '8', 'clt')"
+name: "unhandledRejectionError"
+pid: 14716
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-04 20:46:54,676 ERROR 5588 nodejs.unhandledRejectionError: ER_DUP_ENTRY: Duplicate entry 'ssm' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-demo\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-demo\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `identity`, `id`) VALUES('ssm', '594323456', '1', 'ys2')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'ssm' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `identity`, `id`) VALUES('ssm', '594323456', '1', 'ys2')"
+name: "unhandledRejectionError"
+pid: 5588
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-05 18:47:09,513 ERROR 17856 nodejs.ClusterClientNoResponseError: client no response in 4866201ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 17856
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-07 09:06:47,159 ERROR 4688 [-/127.0.0.1/-/5ms POST /login] nodejs.ReferenceError: username is not defined
+    at module.exports.senduser (D:\内网通\学习\高级node\练习\egg-dome\egg-node\app\controller\user.js:47:13)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:36:12
+
+pid: 4688
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-07 09:08:17,527 ERROR 4688 [-/127.0.0.1/-/1ms POST /login] nodejs.ReferenceError: username is not defined
+    at module.exports.senduser (D:\内网通\学习\高级node\练习\egg-dome\egg-node\app\controller\user.js:47:13)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:36:12
+
+pid: 4688
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-07 09:12:31,723 ERROR 5644 [-/127.0.0.1/-/168ms POST /login] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `username` = '苏诗陌' AND `password` = '123456' LIMIT 0, 1
+code: "ER_CANT_AGGREGATE_2COLLATIONS"
+errno: 1267
+sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='"
+sqlState: "HY000"
+index: 0
+sql: "SELECT * FROM `user` WHERE `username` = '苏诗陌' AND `password` = '123456' LIMIT 0, 1"
+name: "ER_CANT_AGGREGATE_2COLLATIONSError"
+pid: 5644
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-07 09:34:12,347 ERROR 1736 [-/127.0.0.1/-/7ms POST /login] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `username` = '苏诗陌' AND `password` = '1234567' LIMIT 0, 1
+code: "ER_CANT_AGGREGATE_2COLLATIONS"
+errno: 1267
+sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='"
+sqlState: "HY000"
+index: 0
+sql: "SELECT * FROM `user` WHERE `username` = '苏诗陌' AND `password` = '1234567' LIMIT 0, 1"
+name: "ER_CANT_AGGREGATE_2COLLATIONSError"
+pid: 1736
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-07 11:32:03,407 ERROR 7528 [-/127.0.0.1/-/24ms GET /getuserinfo] nodejs.TypeError: Cannot read property 'app' of undefined
+    at module.exports.getuserinfo (D:\内网通\学习\高级node\练习\egg-dome\egg-node\app\controller\user.js:70:43)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:44:32)
+    at next (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:45:18)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:44:32)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\koa-compose\index.js:36:12
+
+pid: 7528
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-09 13:58:55,993 ERROR 16336 [-/127.0.0.1/-/11ms POST /registry] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '苏诗陌' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `usercode`, `identity`, `id`) VALUES('苏诗陌', '121212', '1234567890', 'aaa111', 'iax')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '苏诗陌' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `usercode`, `identity`, `id`) VALUES('苏诗陌', '121212', '1234567890', 'aaa111', 'iax')"
+name: "ER_DUP_ENTRYError"
+pid: 16336
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-09 13:59:00,154 ERROR 16336 [-/127.0.0.1/-/3ms POST /registry] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '苏诗陌' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `usercode`, `identity`, `id`) VALUES('苏诗陌', '121212', '1234567890', 'aaa111', 'ebp')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '苏诗陌' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `usercode`, `identity`, `id`) VALUES('苏诗陌', '121212', '1234567890', 'aaa111', 'ebp')"
+name: "ER_DUP_ENTRYError"
+pid: 16336
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-09 13:59:42,117 ERROR 18040 [-/127.0.0.1/-/30ms POST /registry] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '苏诗陌' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `usercode`, `identity`, `id`) VALUES('苏诗陌', '121212', '1234567890', 'aaa111', '8al')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '苏诗陌' for key 'PRIMARY'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `usercode`, `identity`, `id`) VALUES('苏诗陌', '121212', '1234567890', 'aaa111', '8al')"
+name: "ER_DUP_ENTRYError"
+pid: 18040
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-09 20:34:12,558 ERROR 21124 nodejs.ClusterClientNoResponseError: client no response in 796775ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 21124
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 19:05:04,080 ERROR 9904 nodejs.ServerNoResponseError: server 127.0.0.1:52669 no response in 39999ms, maybe the socket is end on the other side. (address: 127.0.0.1:52669)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 9904
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 19:06:41,517 ERROR 10796 nodejs.ClusterClientNoResponseError: client no response in 157433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 10796
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 19:08:26,921 ERROR 22664 nodejs.unhandledRejectionError: Not supported
+    at Object.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\app\router.js:1:11)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.loadFile (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\utils\index.js:27:19)
+    at AppWorkerLoader.requireFile (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\egg-core\lib\loader\egg_loader.js:317:23)
+name: "unhandledRejectionError"
+pid: 22664
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 19:29:37,643 ERROR 6020 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6020
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 19:29:40,550 ERROR 6020 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6020
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 20:06:06,016 ERROR 18024 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'date' in 'field list'
+    at Query.Sequence._packetToError (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:65:19)
+    at D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\co\index.js:54:5
+    sql: INSERT INTO `examlist`(`textnum`, `codenum`, `date`) VALUES('14', '42', '2019/12/10')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'date' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `examlist`(`textnum`, `codenum`, `date`) VALUES('14', '42', '2019/12/10')"
+name: "unhandledRejectionError"
+pid: 18024
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 20:10:50,715 ERROR 20228 nodejs.ServerNoResponseError: server 127.0.0.1:55436 no response in 40002ms, maybe the socket is end on the other side. (address: 127.0.0.1:55436)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 20228
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 20:12:40,521 ERROR 22500 nodejs.ClusterClientNoResponseError: client no response in 169806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 22500
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 20:49:46,585 ERROR 22128 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:57143)
+    at afterWriteDispatched (internal/stream_base_commons.js:78:25)
+    at writeGeneric (internal/stream_base_commons.js:73:3)
+    at Socket._writeGeneric (net.js:713:5)
+    at Socket._write (net.js:725:8)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at Socket.Writable.write (_stream_writable.js:299:11)
+    at Follower.sendHeartBeat (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\tcp-base\lib\base.js:437:12)
+    at ontimeout (timers.js:436:11)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 22128
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-10 20:49:46,582 ERROR 12720 nodejs.ClusterClientNoResponseError: client no response in 124076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\内网通\学习\高级node\练习\egg-dome\egg-node\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12720
+hostname: DESKTOP-RU9Q0D0
+
+2019-12-11 18:31:49,566 ERROR 16424 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16424
+hostname: DESKTOP-RU9Q0D0
+
